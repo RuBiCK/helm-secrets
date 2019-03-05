@@ -7,7 +7,7 @@ ENV HELM_HOME="/.helm"
 
 # Note: Latest version of helm may be found at:
 # https://github.com/kubernetes/helm/releases
-ENV HELM_VERSION="v2.12.2"
+ENV HELM_VERSION="v2.13.0"
 
 RUN apk add --no-cache ca-certificates \
   bash \
